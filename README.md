@@ -1,17 +1,17 @@
-# gulp-file-paths
+# gulp-paths-to-file
 
 Append/prepend transformed file paths to your file contents. See below some usage instructions.
 
 ## Installation
 
 ```
-yarn add -D gulp-file-paths
+yarn add -D gulp-paths-to-file
 ```
 
 ## Usage
 
 ```ts
-import filePaths from 'gulp-file-paths';
+import filePaths from 'gulp-paths-to-file';
 import gulp from 'gulp';
 
 gulp.task('stylesheets', () => {
@@ -22,7 +22,7 @@ gulp.task('stylesheets', () => {
 ```
 
 ```ts
-import {FilePathsPlugin} from 'gulp-file-paths';
+import {FilePathsPlugin} from 'gulp-paths-to-file';
 import gulp from 'gulp';
 
 gulp.task('stylesheets', () => {

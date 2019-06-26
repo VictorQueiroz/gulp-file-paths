@@ -1,5 +1,5 @@
 {
-  "name": "gulp-file-paths",
+  "name": "gulp-paths-to-file",
   "version": "1.0.0",
   "description": "Append/prepend transformed file paths to your files",
   "main": "lib/index.js",
