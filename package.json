@@ -9,6 +9,7 @@
     "coverage": "npx nyc npm test",
     "tdd": "npx sarg --require ts-node/register -w test -w src test/test.ts"
   },
+  "keywords": ["gulp", "pattern", "glob", "prepend", "append"],
   "author": "Victor Queiroz <victorcqueirozg@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -40,5 +41,9 @@
     "typescript": "^3.5.2",
     "utility-types": "^3.7.0",
     "vinyl-fs": "^3.0.3"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/VictorQueiroz/gulp-file-paths.git"
   }
 }
