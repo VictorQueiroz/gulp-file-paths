@@ -1,0 +1,44 @@
+{
+  "name": "gulp-file-paths",
+  "version": "1.0.0",
+  "description": "Append/prepend transformed file paths to your files",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "test": "npx sarg --require ts-node/register test/test.ts",
+    "coverage": "npx nyc npm test",
+    "tdd": "npx sarg --require ts-node/register -w test -w src test/test.ts"
+  },
+  "author": "Victor Queiroz <victorcqueirozg@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.4",
+    "through2": "^3.0.1",
+    "vinyl": "^2.2.0"
+  },
+  "nyc": {
+    "extension": [
+      ".ts",
+      ".js"
+    ]
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/glob": "^7.1.1",
+    "@types/node": "^12.0.10",
+    "@types/sinon": "^7.0.13",
+    "@types/through2": "^2.0.34",
+    "@types/vinyl": "^2.0.3",
+    "@types/vinyl-fs": "^2.4.11",
+    "chai": "^4.2.0",
+    "nyc": "^14.1.1",
+    "sarg": "^3.0.1",
+    "sinon": "^7.3.2",
+    "sinon-chai": "^3.3.0",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.2",
+    "utility-types": "^3.7.0",
+    "vinyl-fs": "^3.0.3"
+  }
+}
